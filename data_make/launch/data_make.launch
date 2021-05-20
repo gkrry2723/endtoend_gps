@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="rosbag" type="play" name="rosbag_play" output="screen" args="/home/carla_save1.bag"/>
+  <node name="data_make" pkg="data_make" type="data_make.py" output="screen" />
+
+</launch>
